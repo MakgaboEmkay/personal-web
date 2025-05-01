@@ -1,0 +1,59 @@
+#profilePic{
+    width: 200px;
+    border-radius: 10px;
+}
+body{
+    background-image: url("mk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+.skills li {
+    background: #ea3e3e;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  .skills li:hover {
+    background: #d1d1d1;
+  }
+
+  .head1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px;
+  }
+  .about{
+    background-color: #8ceafb;
+  }
+  #aboutme{
+    color: blueviolet;
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  .foot a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  .foot a:hover {
+    color: #005999;
+  }
+ .heading{
+  color: #f9f8f8;
+ }
